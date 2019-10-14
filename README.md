@@ -99,4 +99,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 
 Released under the **[MIT License](http://mit-license.org/)**
+
 Authored and Maintained by **[Abdeen Mohamed](https://github.com/AbdeenM)**
