@@ -15,6 +15,7 @@ providing you a great and optimized `file structure`, `organized directories`, a
 **This is just my personal structure of most of my projects, thought i might save someone a couple of days :)**
 
 ## Utilities
+
 * [React Native](facebook.github.io/react-native/)
 * [Expo](https://expo.io/)
 * [Axios](https://github.com/axios/axios/) for your API calls
@@ -26,6 +27,7 @@ providing you a great and optimized `file structure`, `organized directories`, a
 * [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons/) for your icons
 
 ## Structure Layout
+
 ```
 ./react-native-expo-kit
             |--- package.json     <=========================== Contains all your project settings, packages, etc.
@@ -64,13 +66,37 @@ providing you a great and optimized `file structure`, `organized directories`, a
 ```
 
 ## Features Build-In
+
+* **Authentication Flow** - Already setup flow of authentication
 * **Theming** - A build-in themeing compatability that utilies Redux, you can change the coloring, set new theme properties in `config/theme/Themes.js`
 * **API Endpoints** - Use this file to make HTTP requests to your server and retrive data, you can get more information in `config/Api.js`
 * **Permissions** - Use this to access/add all [Expo Permissions](https://docs.expo.io/versions/latest/sdk/permissions/), you can get more information in `config/Permisions.js`
-* **Authentication Flow** - Already setup flow of authentication
 
 ## Prerequisites
+
 * [Node](https://nodejs.org) v8.10 (it is recommended to install it via [NVM](https://github.com/creationix/nvm))
 * [NPM](https://npmjs.com/) or [Yarn](https://https://yarnpkg.com/)
 * A development enviroment setup with React Native and Expo, you can follow [these instructions](https://docs.expo.io/versions/v35.0.0/introduction/installation/)
 
+## Getting Started
+
+1. Clone or download this repo
+            * Download by hitting that green `clone or download` green button on the top right corner
+            * Clone by running this command on your chosen directory `git clone https://github.com/AbdeenM/react-native-expo-kit.git your project name`
+2. Remove `.git` folder, by running `rm -rf .git`
+3. Open `package.json` and change all the details as you need (author, repository, scripts, etc.)
+4. Open `app.json` and configure all your application needs, see [these instructions](https://docs.expo.io/versions/latest/workflow/configuration/)
+5. Finally, install all dependencies by running `npm install` or `yarn install` depending on your favourite package manager
+
+## Project Status
+
+Will be updating this with every major updates of related dependencies and Expo SDK releases, feel free to improve or contribute!
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+Released under the **[MIT License](http://mit-license.org/)**
+Authored and Maintained by **[Abdeen Mohamed](https://github.com/AbdeenM)**
