@@ -12,7 +12,7 @@ This project is a [React Native](https://facebook.github.io/react-native/) boile
 This boilerplate capitalizes on the use of [Redux](https://react-redux.js.org/), [React Navigation](https://reactnavigation.org/) and it follows Expo's initial project layout that is resulted from invoking `expo init` to create your project,
 providing you a great and optimized `file structure`, `organized directories`, a great way to maintain your actions/reducers as well as your assets, configs, etc.
 
-** This is just my personal structure of most of my projects, thought i might save someone a couple of days :)**
+**This is just my personal structure of most of my projects, thought i might save someone a couple of days :)**
 
 ## Utilities
 * [React Native](facebook.github.io/react-native/)
@@ -50,8 +50,13 @@ providing you a great and optimized `file structure`, `organized directories`, a
                     |--- RootReducer.js     <================== Contains the combined reducers of all your reducers
                     |--- Store.js     <======================== Contains the Redux store scheme
             |--- screens/     <================================ All your application screens go here
+                    |--- LoadingScreen.js           <========== Contains the main loading component and your application auth checking
                     |--- links/
                     |--- settings/
+                    |--- auth/
+                            |--- LoginScreen.js        <======= Contains the styling and component for your Login screen
+                            |--- RegisterScreen.js          <== Contains the styling and component for your Register screen
+                            |--- WelcomeScreen              <== Contains the landing page for your application
                     |--- home/      <========================== Example of a screen directory
                             |--- HomeActions.js     <========== Contains all Home screen redux actions
                             |--- HomeReducer.js     <========== Contains Home screen reducer
@@ -62,6 +67,7 @@ providing you a great and optimized `file structure`, `organized directories`, a
 * **Theming** - A build-in themeing compatability that utilies Redux, you can change the coloring, set new theme properties in `config/theme/Themes.js`
 * **API Endpoints** - Use this file to make HTTP requests to your server and retrive data, you can get more information in `config/Api.js`
 * **Permissions** - Use this to access/add all [Expo Permissions](https://docs.expo.io/versions/latest/sdk/permissions/), you can get more information in `config/Permisions.js`
+* **Authentication Flow** - Already setup flow of authentication
 
 ## Prerequisites
 * [Node](https://nodejs.org) v8.10 (it is recommended to install it via [NVM](https://github.com/creationix/nvm))
