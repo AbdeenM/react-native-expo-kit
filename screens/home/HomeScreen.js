@@ -135,7 +135,7 @@ class HomeScreen extends React.Component {
 							fontWeight: 'bold',
 							marginVertical: 10,
 							color: this.props.theme.colors.primary
-						}}>SWITCH THEME</Text>
+						}}>ENABLE DARK THEME</Text>
 
 						<Switch
 							value={this.props.theme.dark}
