@@ -16,7 +16,7 @@
 		"primaryColor": "#549FFC",
 		"icon": "./assets/images/icon.png",
 		"extra": {
-			"serverURL": "http://192.168.8.100:8080"
+			"serverURL": "YOUR_SERVER_URL"
 		},
 		"assetBundlePatterns": [
 			"**/*"

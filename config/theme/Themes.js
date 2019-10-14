@@ -1,7 +1,5 @@
-import { DefaultTheme, DarkTheme } from 'react-native-paper'
 
 export const lightTheme = {
-	...DefaultTheme,
 	dark: false,
 	roundness: 5,
 	colors: {
@@ -24,7 +22,6 @@ export const lightTheme = {
 }
 
 export const darkTheme = {
-	...DarkTheme,
 	dark: true,
 	roundness: 5,
 	colors: {

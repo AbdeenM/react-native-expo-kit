@@ -1,14 +1,31 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import { ExpoConfigView } from '@expo/samples';
 
-export default function SettingsScreen() {
-  /**
-   * Go ahead and delete ExpoConfigView and replace it with your content;
-   * we just wanted to give you a quick view of your config.
-   */
-  return <ExpoConfigView />;
-}
+const mapStateToProps = (state, ownProps) => ({
+	// ... computed data from state and optionally ownProps
+	theme: state.theme
+});
 
-SettingsScreen.navigationOptions = {
-  title: 'app.json',
+const mapDispatchToProps = {
+	// ... normally is an object full of action creators
 };
+
+class SettingsScreen extends React.Component {
+	static navigationOptions = {
+		title: 'app.json',
+	};
+
+	/**
+	 * Go ahead and delete ExpoConfigView and replace it with your content;
+	 * we just wanted to give you a quick view of your config.
+	 */
+	render() {
+		return <ExpoConfigView />;
+	};
+};
+
+export default connect(
+	mapStateToProps,
+	mapDispatchToProps
+)(SettingsScreen);

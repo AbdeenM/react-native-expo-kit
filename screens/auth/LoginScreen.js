@@ -1,15 +1,15 @@
-import React from 'react'
-import { connect } from 'react-redux'
-import { View, Text, Button } from 'react-native'
+import React from 'react';
+import { connect } from 'react-redux';
+import { View, Text, Button } from 'react-native';
 
 const mapStateToProps = (state, ownProps) => ({
     // ... computed data from state and optionally ownProps
     theme: state.theme
-})
+});
 
 const mapDispatchToProps = {
     // ... normally is an object full of action creators
-}
+};
 
 class LoginScreen extends React.Component {
     render() {
@@ -31,11 +31,11 @@ class LoginScreen extends React.Component {
                     title='Go to Register'
                     onPress={() => this.props.navigation.navigate('Register')} />
             </View>
-        )
-    }
-}
+        );
+    };
+};
 
 export default connect(
     mapStateToProps,
     mapDispatchToProps
-)(LoginScreen)
+)(LoginScreen);

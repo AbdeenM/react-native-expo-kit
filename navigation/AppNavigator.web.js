@@ -9,8 +9,8 @@ import { createBrowserApp } from '@react-navigation/web'
 import { createSwitchNavigator } from 'react-navigation'
 
 import AuthNavigator from './AuthNavigator'
-import LoadingScreen from './LoadingScreen'
 import MainNavigator from './MainNavigator'
+import LoadingScreen from '../screens/LoadingScreen'
 
 const switchNavigator = createSwitchNavigator(
   {
