@@ -205,6 +205,7 @@ const styles = StyleSheet.create({
 		marginVertical: 7,
 	},
 	codeHighlightText: {
+		color: '#2e78b7',
 		fontWeight: 'bold',
 	},
 	codeHighlightContainer: {
