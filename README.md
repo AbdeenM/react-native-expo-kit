@@ -52,7 +52,7 @@ providing you a great and optimized `file structure`, `organized directories`, a
             |--- config/      <================================ All your configuration files go here
                     |--- theme/     <========================== Contains Theme.js, Theme actions and reducer
                     |--- Api.js     <========================== Contains your HTTP functions for any server side calls
-                    |--- Permissions      <==================== Contains all Expo device permissions
+                    |--- Permissions.js      <================= Contains all Expo device permissions
             |--- navigation/      <============================ Contains your root naivgation files
                     |--- AppNavigator.js      <================ Contains the main application navigation scheme
                     |--- AppNavigator.web.js      <============ Contains the main web application navigation scheme
