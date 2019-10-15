@@ -112,7 +112,7 @@ class HomeScreen extends React.Component {
 
 						<Text style={{
 							...styles.getStartedText,
-							color: this.props.theme.colors.primary
+							color: this.props.theme.colors.text
 						}}>
 							Change this text and your app will automatically reload.
           				</Text>
