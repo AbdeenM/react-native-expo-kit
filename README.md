@@ -39,7 +39,7 @@ providing you a great and optimized `file structure`, `organized directories`, a
 ./react-native-expo-kit
             |--- package.json     <=========================== Contains all your project settings, packages, etc.
             |--- app.json     <================================ Contains your application settings (i.e. Manifest, etc.)
-            |--- App.js <====================================== Root application component
+            |--- App.js        <=============================== Root application component
             |--- assets/        <============================== All your assets go here
                     |--- fonts/     <========================== All your fonts go here
                             |--- SpaceMono-Regular.ttf      <== Example of a font file
@@ -65,11 +65,11 @@ providing you a great and optimized `file structure`, `organized directories`, a
                     |--- auth/
                             |--- LoginScreen.js        <======= Contains the styling and component for your Login screen
                             |--- RegisterScreen.js          <== Contains the styling and component for your Register screen
-                            |--- WelcomeScreen              <== Contains the landing page for your application
+                            |--- WelcomeScreen        <======== Contains the landing page for your application
                     |--- home/      <========================== Example of a screen directory
                             |--- HomeActions.js     <========== Contains all Home screen redux actions
                             |--- HomeReducer.js     <========== Contains Home screen reducer
-                            |--- HomeScreen.js      <========== Contains the Home screen react component and styling             
+                            |--- HomeScreen.js     <=========== Contains the Home screen react component and styling             
 ```
 
 ## Prerequisites
