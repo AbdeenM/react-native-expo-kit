@@ -16,8 +16,8 @@ providing you a great and optimized `file structure`, `organized directories`, a
 
 ## Utilities
 
-* [React Native](facebook.github.io/react-native/)
 * [Expo](https://expo.io/)
+* [React Native](facebook.github.io/react-native/)
 * [Axios](https://github.com/axios/axios/) for your API calls
 * [React Navigation](https://reactnavigation.org/) for managing application navigation
 * [Redux](https://redux.js.org/) for managing your application states
