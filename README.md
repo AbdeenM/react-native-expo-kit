@@ -24,12 +24,12 @@ providing you a great and optimized `file structure`, `organized directories`, a
 * [React Persist](https://github.com/rt2zz/redux-persist/) for presisting Redux states
 * [React Promise Middleware](https://github.com/pburtchaell/redux-promise-middleware/) for simple yet robust handling of async action creators in Redux
 * [Redux Thunk](https://github.com/reduxjs/redux-thunk/) a redux middleware for redux side effects logic, including complex synchronous logic that need access to the store
-* [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons/) for your icons
+* [React Native Paper](https://reactnativepaper.com/) for your components and UI styling
 
 ## Features Build-In
 
 * **Authentication Flow** - Already setup flow of authentication
-* **Theming** - A build-in themeing compatability that utilies Redux, you can change the coloring, set new theme properties in `config/theme/Themes.js`
+* **Theming** - A build-in theming compatability enabling light and dark modes that utilies Redux and React Native Paper. You can change the coloring, set new theme properties in `config/theme/Themes.js`
 * **API Endpoints** - Use this file to make HTTP requests to your server and retrive data, you can get more information in `config/Api.js`
 * **Permissions** - Use this to access/add all [Expo Permissions](https://docs.expo.io/versions/latest/sdk/permissions/), you can get more information in `config/Permisions.js`
 
