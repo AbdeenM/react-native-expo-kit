@@ -34,7 +34,7 @@ class RootNavigator extends React.Component {
         };
 
         return (
-            <AppNavigator />
+            <AppNavigator theme={this.props.theme.dark ? 'dark' : 'light'} />
         );
     };
 };
