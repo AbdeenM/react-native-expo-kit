@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { StatusBar } from 'react-native';
 import { AsyncStorage, View } from 'react-native';
 
 import AppNavigator from './AppNavigator';
@@ -21,6 +22,8 @@ class RootNavigator extends React.Component {
     };
 
     componentDidMount = async () => {
+        StatusBar.setBarStyle(this.props.theme.dark ? 'light-content' : 'dark-content')
+
         // ... make any initial fetching requests to your server here
         // const userId = await AsyncStorage.getItem('userId')
         // i.e. this.props.fetchHome(userId)
