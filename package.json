@@ -70,7 +70,6 @@
         "redux-logger": "^3.0.6"
     },
     "engines": {
-        "node": ">= 6.0.0",
         "npm": ">= 3.0.0"
     },
     "private": false
