@@ -1,30 +1,31 @@
 {
-    "author": {
-        "name": "Abdeen Mohamed",
-        "email": "abdeen.mohamed@outlook.com",
-        "url": "https://github.com/AbdeenM"
-    },
-    "license": "MIT",
-    "description": "An elegant react native expo project kit to get you started ",
+    "name": "react-native-expo-kit",
     "version": "1.0.0",
-    "homepage": "https://github.com/AbdeenM/react-native-expo-kit",
+    "description": "An elegant react native expo project kit to get you started ",
     "keywords": [
-        "react native",
         "expo",
         "redux",
         "react redux",
-        "react navigation",
-        "authentication"
+        "react native",
+        "authentication",
+        "react navigation"
     ],
+    "homepage": "https://github.com/AbdeenM/react-native-expo-kit",
+	"bugs": {
+		"email": "abdeen.mohamed@outlook.com",
+		"url": "https://github.com/AbdeenM/react-native-expo-kit/issues"
+	},
+    "license": "MIT",
+	"author": {
+		"name": "Abdeen Mohamed",
+		"url": "https://github.com/AbdeenM",
+		"email": "abdeen.mohamed@outlook.com"
+	},
+    "main": "node_modules/expo/AppEntry.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/AbdeenM/react-native-expo-kit"
     },
-    "engines": {
-        "node": ">= 6.0.0",
-        "npm": ">= 3.0.0"
-    },
-    "main": "node_modules/expo/AppEntry.js",
     "scripts": {
         "fresh": "expo start -c",
         "start": "expo start",
@@ -67,6 +68,10 @@
         "babel-preset-expo": "^7.0.0",
         "jest-expo": "^35.0.0",
         "redux-logger": "^3.0.6"
+    },
+    "engines": {
+        "node": ">= 6.0.0",
+        "npm": ">= 3.0.0"
     },
     "private": false
 }
