@@ -41,7 +41,7 @@ providing you a great and optimized `file structure`, `organized directories`, a
 
 ```
 ./react-native-expo-kit
-            |--- package.json     <=========================== Contains all your project settings, packages, etc.
+            |--- package.json     <============================ Contains all your project settings, packages, etc.
             |--- app.json     <================================ Contains your application settings (i.e. Manifest, etc.)
             |--- App.js        <=============================== Root application component
             |--- assets/        <============================== All your assets go here
