@@ -7,42 +7,42 @@ import AppNavigator from './AppNavigator';
 import { fetchHome } from '../screens/home/HomeActions';
 
 const mapStateToProps = (state, ownProps) => ({
-    // ... computed data from state and optionally ownProps
-    theme: state.theme
+	// ... computed data from state and optionally ownProps
+	theme: state.theme
 })
 
 const mapDispatchToProps = {
-    // ... normally is an object full of action creators
-    //fetchHome
+	// ... normally is an object full of action creators
+	//fetchHome
 }
 
 class RootNavigator extends React.Component {
-    state = {
-        loading: true
-    };
+	state = {
+		loading: true
+	};
 
-    componentDidMount = async () => {
-        StatusBar.setBarStyle(this.props.theme.dark ? 'light-content' : 'dark-content')
+	componentDidMount = async () => {
+		StatusBar.setBarStyle(this.props.theme.dark ? 'light-content' : 'dark-content')
 
-        // ... make any initial fetching requests to your server here
-        // const userId = await AsyncStorage.getItem('userId')
-        // i.e. this.props.fetchHome(userId)
-        this.setState({ loading: false })
-    };
+		// ... make any initial fetching requests to your server here
+		// const userId = await AsyncStorage.getItem('userId')
+		// i.e. this.props.fetchHome(userId)
+		this.setState({ loading: false })
+	};
 
-    render() {
-        if (this.state.loading) {
-            {/** Return any loading screen here if wanted */ }
-            return <View />
-        };
+	render() {
+		if (this.state.loading) {
+			{/** Return any loading screen here if wanted */ }
+			return <View />
+		};
 
-        return (
-            <AppNavigator theme={this.props.theme.dark ? 'dark' : 'light'} />
-        );
-    };
+		return (
+			<AppNavigator theme={this.props.theme.dark ? 'dark' : 'light'} />
+		);
+	};
 };
 
 export default connect(
-    mapStateToProps,
-    mapDispatchToProps
+	mapStateToProps,
+	mapDispatchToProps
 )(RootNavigator);
