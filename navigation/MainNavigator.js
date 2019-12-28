@@ -1,7 +1,8 @@
 import React from 'react';
 import { Platform } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { createStackNavigator, createBottomTabNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+import { createBottomTabNavigator } from 'react-navigation-tabs';
 
 import HomeScreen from '../screens/home/HomeScreen';
 import LinksScreen from '../screens/links/LinksScreen';
@@ -15,7 +16,7 @@ const config = Platform.select({
 
 const HomeStack = createStackNavigator(
 	{
-		Home: HomeScreen,
+		Home: HomeScreen
 	},
 	config
 );
@@ -46,7 +47,7 @@ HomeStack.path = '';
 
 const LinksStack = createStackNavigator(
 	{
-		Links: LinksScreen,
+		Links: LinksScreen
 	},
 	config
 );

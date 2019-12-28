@@ -1,4 +1,4 @@
-# ![alt text](https://github.com/AbdeenM/react-native-expo-kit/blob/master/icon.png) React Native Expo Kit - October 2019
+# ![alt text](https://github.com/AbdeenM/react-native-expo-kit/blob/master/icon.png) React Native Expo Kit - December 2019
 
 [![Status](https://img.shields.io/badge/build-passing-green.svg?branch=master)](https://github.com/AbdeenM/react-native-expo-kit)
 [![React Native](https://img.shields.io/badge/React%20Native-v0.57.8-blue.svg?logo=react)](https://facebook.github.io/react-native/)
