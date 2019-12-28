@@ -11,7 +11,7 @@ Light Theme              |  Dark Theme
 :-------------------------:|:-------------------------:
 ![](https://github.com/AbdeenM/react-native-expo-kit/blob/master/screenshots/lightTheme.jpeg)  |  ![](https://github.com/AbdeenM/react-native-expo-kit/blob/master/screenshots/darkTheme.jpeg)
 
-This project is a [React Native](https://facebook.github.io/react-native/) boilerplate using [Expo](https://expo.io/) that you can use to save you a couple of days worth of setup.
+This project is a [React Native](https://facebook.github.io/react-native/) boilerplate using [Expo](https://expo.io/) that you can use to save you a couple of days worth of setup, for previous Expo SDK support change the branch :).
 
 This boilerplate capitalizes on the use of [Redux](https://react-redux.js.org/), [React Navigation](https://reactnavigation.org/) and it follows Expo's initial project layout that is resulted from invoking `expo init` to create your project,
 providing you a great and optimized `file structure`, `organized directories`, a great way to maintain your actions/reducers as well as your assets, configs, etc.
