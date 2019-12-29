@@ -16,7 +16,7 @@ This project is a [React Native](https://facebook.github.io/react-native/) boile
 This boilerplate capitalizes on the use of [Redux](https://react-redux.js.org/), [React Navigation](https://reactnavigation.org/) and it follows Expo's initial project layout that is resulted from invoking `expo init` to create your project,
 providing you a great and optimized `file structure`, `organized directories`, a great way to maintain your actions/reducers as well as your assets, configs, etc.
 
-**This is just my personal structure of most of my projects, thought i might save someone a couple of days :)**
+**This is just my personal structure of most of my projects, thought i might save someone a couple of days, for previous Expo SDK support change the branch :).**
 
 ## Utilities
 
