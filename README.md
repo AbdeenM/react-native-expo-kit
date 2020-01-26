@@ -85,9 +85,8 @@ providing you a great and optimized `file structure`, `organized directories`, a
 ## Getting Started
 
 1. Clone or download this repo:
-
-            * Download by hitting that green `clone or download` green button on the top right corner      
-            * Clone by running this command on your chosen directory `git clone https://github.com/AbdeenM/react-native-expo-kit.git your project name`
+   - Download by hitting that green `clone or download` green button on the top right corner      
+   - Clone by running this command on your chosen directory `git clone https://github.com/AbdeenM/react-native-expo-kit.git your project name`
 2. Remove `.git` folder, by running `rm -rf .git`
 3. Open `package.json` and change all the details as you need (author, repository, scripts, etc.)
 4. Open `app.json` and configure all your application needs, see [these instructions](https://docs.expo.io/versions/latest/workflow/configuration/)
