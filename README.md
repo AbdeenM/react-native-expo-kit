@@ -3,8 +3,8 @@
 [![Status](https://img.shields.io/badge/build-passing-green.svg?branch=master)](https://github.com/AbdeenM/react-native-expo-kit)
 [![React Native](https://img.shields.io/badge/React%20Native-v0.61.0-blue.svg?logo=react)](https://facebook.github.io/react-native/)
 [![Expo](https://img.shields.io/badge/Expo-SDK36.0.0-black.svg?logo=expo)](https://expo.io/)
-[![React Redux V7](https://img.shields.io/badge/Redux-v7.1.1-purple.svg?logo=redux)](https://react-redux.js.org/)
-[![React Navigation V3](https://img.shields.io/badge/React%20Navigation-v3.13.0-blue.svg?logo=react)](https://reactnavigation.org/)
+[![React Redux V7](https://img.shields.io/badge/Redux-v7.1.3-purple.svg?logo=redux)](https://react-redux.js.org/)
+[![React Navigation V4](https://img.shields.io/badge/React%20Navigation-v4.0.10-blue.svg?logo=react)](https://reactnavigation.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellowgreen.svg)](http://mit-license.org/)
 
 Light Theme              |  Dark Theme
