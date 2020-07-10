@@ -11,12 +11,9 @@ Light Theme              |  Dark Theme
 :-------------------------:|:-------------------------:
 ![](https://github.com/AbdeenM/react-native-expo-kit/blob/master/screenshots/lightTheme.jpeg)  |  ![](https://github.com/AbdeenM/react-native-expo-kit/blob/master/screenshots/darkTheme.jpeg)
 
-This project is a [React Native](https://facebook.github.io/react-native/) boilerplate using [Expo](https://expo.io/) that you can use to save you a couple of days worth of setup, for previous Expo SDK support change the branch :).
+This project is a [React Native](https://facebook.github.io/react-native/) boilerplate using [Expo](https://expo.io/) that you can use to save you a couple of days worth of setup, for previous Expo SDK support check out the branches on this repo :).
 
-This boilerplate capitalizes on the use of [Redux](https://react-redux.js.org/), [React Navigation](https://reactnavigation.org/) and it follows Expo's initial project layout that is resulted from invoking `expo init` to create your project,
-providing you a great and optimized `file structure`, `organized directories`, a great way to maintain your actions/reducers as well as your assets, configs, etc.
-
-**This is just my personal structure of most of my projects, thought i might save someone a couple of days :)**
+This boilerplate capitalizes on the use of [Redux](https://react-redux.js.org/), [React Navigation](https://reactnavigation.org/) and it follows Expo's initial project structure that is resulted from invoking `expo init` to create your project, providing you with a great and optimized file structure, organized directories, a great way to maintain your actions/reducers, your assets, configs, API end points, built in theming and much more.
 
 ## Utilities
 
@@ -85,9 +82,8 @@ providing you a great and optimized `file structure`, `organized directories`, a
 ## Getting Started
 
 1. Clone or download this repo:
-
-            * Download by hitting that green `clone or download` green button on the top right corner      
-            * Clone by running this command on your chosen directory `git clone https://github.com/AbdeenM/react-native-expo-kit.git your project name`
+   - Download by hitting that green `clone or download` green button on the top right corner      
+   - Clone by running this command on your chosen directory `git clone https://github.com/AbdeenM/react-native-expo-kit.git your project name`
 2. Remove `.git` folder, by running `rm -rf .git`
 3. Open `package.json` and change all the details as you need (author, repository, scripts, etc.)
 4. Open `app.json` and configure all your application needs, see [these instructions](https://docs.expo.io/versions/latest/workflow/configuration/)
