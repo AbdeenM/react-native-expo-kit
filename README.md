@@ -1,22 +1,19 @@
 # ![alt text](https://github.com/AbdeenM/react-native-expo-kit/blob/master/icon.png) React Native Expo Kit - December 2019
 
 [![Status](https://img.shields.io/badge/build-passing-green.svg?branch=master)](https://github.com/AbdeenM/react-native-expo-kit)
-[![React Native](https://img.shields.io/badge/React%20Native-v0.57.8-blue.svg?logo=react)](https://facebook.github.io/react-native/)
-[![Expo](https://img.shields.io/badge/Expo-SDK35.0.0-black.svg?logo=expo)](https://expo.io/)
-[![React Redux V7](https://img.shields.io/badge/Redux-v7.1.1-purple.svg?logo=redux)](https://react-redux.js.org/)
-[![React Navigation V3](https://img.shields.io/badge/React%20Navigation-v3.13.0-blue.svg?logo=react)](https://reactnavigation.org/)
+[![React Native](https://img.shields.io/badge/React%20Native-v0.61.0-blue.svg?logo=react)](https://facebook.github.io/react-native/)
+[![Expo](https://img.shields.io/badge/Expo-SDK36.0.0-black.svg?logo=expo)](https://expo.io/)
+[![React Redux V7](https://img.shields.io/badge/Redux-v7.1.3-purple.svg?logo=redux)](https://react-redux.js.org/)
+[![React Navigation V4](https://img.shields.io/badge/React%20Navigation-v4.0.10-blue.svg?logo=react)](https://reactnavigation.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellowgreen.svg)](http://mit-license.org/)
 
 Light Theme              |  Dark Theme
 :-------------------------:|:-------------------------:
 ![](https://github.com/AbdeenM/react-native-expo-kit/blob/master/screenshots/lightTheme.jpeg)  |  ![](https://github.com/AbdeenM/react-native-expo-kit/blob/master/screenshots/darkTheme.jpeg)
 
-This project is a [React Native](https://facebook.github.io/react-native/) boilerplate using [Expo](https://expo.io/) that you can use to save you a couple of days worth of setup, for previous Expo SDK support change the branch :).
+This project is a [React Native](https://facebook.github.io/react-native/) boilerplate using [Expo](https://expo.io/) that you can use to save you a couple of days worth of setup, for previous Expo SDK support check out the branches on this repo :).
 
-This boilerplate capitalizes on the use of [Redux](https://react-redux.js.org/), [React Navigation](https://reactnavigation.org/) and it follows Expo's initial project layout that is resulted from invoking `expo init` to create your project,
-providing you a great and optimized `file structure`, `organized directories`, a great way to maintain your actions/reducers as well as your assets, configs, etc.
-
-**This is just my personal structure of most of my projects, thought i might save someone a couple of days :)**
+This boilerplate capitalizes on the use of [Redux](https://react-redux.js.org/), [React Navigation](https://reactnavigation.org/) and it follows Expo's initial project structure that is resulted from invoking `expo init` to create your project, providing you with a great and optimized file structure, organized directories, a great way to maintain your actions/reducers, your assets, configs, API end points, built in theming and much more.
 
 ## Utilities
 
@@ -85,9 +82,8 @@ providing you a great and optimized `file structure`, `organized directories`, a
 ## Getting Started
 
 1. Clone or download this repo:
-
-            * Download by hitting that green `clone or download` green button on the top right corner      
-            * Clone by running this command on your chosen directory `git clone https://github.com/AbdeenM/react-native-expo-kit.git your project name`
+   - Download by hitting that green `clone or download` green button on the top right corner      
+   - Clone by running this command on your chosen directory `git clone https://github.com/AbdeenM/react-native-expo-kit.git your project name`
 2. Remove `.git` folder, by running `rm -rf .git`
 3. Open `package.json` and change all the details as you need (author, repository, scripts, etc.)
 4. Open `app.json` and configure all your application needs, see [these instructions](https://docs.expo.io/versions/latest/workflow/configuration/)
