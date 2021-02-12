@@ -42,7 +42,7 @@
 		"@expo/samples": "~3.0.3",
 		"@expo/vector-icons": "^10.0.0",
 		"@react-navigation/web": "^1.0.0-alpha.9",
-		"axios": "^0.19.0",
+		"axios": "^0.21.1",
 		"expo": "^38.0.0",
 		"expo-asset": "~8.1.7",
 		"expo-constants": "~9.1.1",
