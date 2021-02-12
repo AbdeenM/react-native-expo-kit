@@ -1,48 +1,47 @@
 {
-  "expo": {
-    "name": "React Native Expo Kit",
-    "description": "An elegant react native expo project kit to get you started ",
-    "slug": "react-native-expo-kit",
-    "owner": "Abdeen Mohamed",
-    "privacy": "public",
-    "sdkVersion": "38.0.0",
-    "version": "1.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "orientation": "portrait",
-    "primaryColor": "#549FFC",
-    "icon": "./assets/images/icon.png",
-    "extra": {
-      "serverURL": "YOUR_SERVER_URL"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "splash": {
-      "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "notification": {
-      "icon": "",
-      "color": "#549FFC",
-      "androidMode": "collapse",
-      "androidCollapsedTitle": "#{unread_notifications} new interactions"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "ios": {
-      "bundleIdentifier": "your.bunddleidentifier.here",
-      "buildNumber": "1.0.001",
-      "supportsTablet": true
-    },
-    "android": {
-      "package": "your.packagename.here",
-      "versionCode": 10001
+    "expo": {
+        "name": "React Native Expo Kit",
+        "description": "An elegant react native expo project kit to get you started ",
+        "slug": "react-native-expo-kit",
+        "owner": "Abdeen Mohamed",
+        "privacy": "public",
+        "version": "1.0.0",
+        "platforms": [
+            "ios",
+            "android",
+            "web"
+        ],
+        "orientation": "portrait",
+        "primaryColor": "#549FFC",
+        "icon": "./assets/images/icon.png",
+        "extra": {
+            "serverURL": "YOUR_SERVER_URL"
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "splash": {
+            "image": "./assets/images/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "notification": {
+            "icon": "",
+            "color": "#549FFC",
+            "androidMode": "collapse",
+            "androidCollapsedTitle": "#{unread_notifications} new interactions"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "ios": {
+            "bundleIdentifier": "your.bunddleidentifier.here",
+            "buildNumber": "1.0.001",
+            "supportsTablet": true
+        },
+        "android": {
+            "package": "your.packagename.here",
+            "versionCode": 10001
+        }
     }
-  }
 }

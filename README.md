@@ -1,8 +1,8 @@
-# ![alt text](https://github.com/AbdeenM/react-native-expo-kit/blob/master/icon.png) React Native Expo Kit - June 2020
+# ![alt text](https://github.com/AbdeenM/react-native-expo-kit/blob/master/icon.png) React Native Expo Kit - February 2021
 
 [![Status](https://img.shields.io/badge/build-passing-green.svg?branch=master)](https://github.com/AbdeenM/react-native-expo-kit)
-[![React Native](https://img.shields.io/badge/React%20Native-v0.62.2-blue.svg?logo=react)](https://facebook.github.io/react-native/)
-[![Expo](https://img.shields.io/badge/Expo-SDK38.0.0-black.svg?logo=expo)](https://expo.io/)
+[![React Native](https://img.shields.io/badge/React%20Native-v0.63.1-blue.svg?logo=react)](https://facebook.github.io/react-native/)
+[![Expo](https://img.shields.io/badge/Expo-40.0.0-black.svg?logo=expo)](https://expo.io/)
 [![React Redux V7](https://img.shields.io/badge/Redux-v7.1.3-purple.svg?logo=redux)](https://react-redux.js.org/)
 [![React Navigation V3](https://img.shields.io/badge/React%20Navigation-v4.0.10-blue.svg?logo=react)](https://reactnavigation.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellowgreen.svg)](http://mit-license.org/)
