@@ -1,6 +1,6 @@
-# ![alt text](https://github.com/AbdeenM/react-native-expo-kit/blob/master/icon.png) React Native Expo Kit - June 2020
+# ![React Native Expo](https://github.com/AbdeenM/react-native-expo-kit/blob/sdk-38/icon.png) React Native Expo Kit - June 2020
 
-[![Status](https://img.shields.io/badge/build-passing-green.svg?branch=master)](https://github.com/AbdeenM/react-native-expo-kit)
+[![Status](https://img.shields.io/badge/build-passing-green.svg?branch=sdk-38)](https://github.com/AbdeenM/react-native-expo-kit)
 [![React Native](https://img.shields.io/badge/React%20Native-v0.62.2-blue.svg?logo=react)](https://facebook.github.io/react-native/)
 [![Expo](https://img.shields.io/badge/Expo-SDK38.0.0-black.svg?logo=expo)](https://expo.io/)
 [![React Redux V7](https://img.shields.io/badge/Redux-v7.1.3-purple.svg?logo=redux)](https://react-redux.js.org/)
@@ -9,7 +9,7 @@
 
 Light Theme              |  Dark Theme
 :-------------------------:|:-------------------------:
-![](https://github.com/AbdeenM/react-native-expo-kit/blob/master/screenshots/lightTheme.jpeg)  |  ![](https://github.com/AbdeenM/react-native-expo-kit/blob/master/screenshots/darkTheme.jpeg)
+![](https://github.com/AbdeenM/react-native-expo-kit/blob/sdk-38/screenshots/lightTheme.jpeg)  |  ![](https://github.com/AbdeenM/react-native-expo-kit/blob/sdk-38/screenshots/darkTheme.jpeg)
 
 This project is a [React Native](https://facebook.github.io/react-native/) boilerplate using [Expo](https://expo.io/) that you can use to save you a couple of days worth of setup, for previous Expo SDK support check out the branches on this repo :).
 
